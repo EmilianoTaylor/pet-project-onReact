@@ -1,0 +1,59 @@
+.form {
+	margin: 20px;
+	background-color: antiquewhite;
+	border-radius: 5px;
+	width: 60%;
+}
+.formInp { padding: 5px;
+	margin: 5px 35px 0 35px;
+	background-color: #999;
+	color: rgb(83, 83, 197);
+	display: inline-block;
+}
+
+
+.formP {
+	margin: 0;
+width: 40%;
+padding: 15px;
+}
+
+.inp{width: 100%;
+border-radius: 5px;
+margin: 5px;}
+
+.create {
+	background-color: aqua;
+	color: black;
+	width: 20%;
+	display: block;
+	margin: 15px;
+	border-radius: 5px;
+}
+
+#finisher {
+ font-size: 0.75rem;
+ margin: 10px;
+ padding: 10px;
+}
+
+.relUl {
+	position: relative;
+	left: 50%;
+	top: -23em;
+	font-size: 0.7em;
+}
+
+.reg {
+	border-top: 1px solid grey;
+}
+
+.passwordWarning {
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-size: 0.7em;
+}
+
+.placeInline {
+	display: flex;
+	margin-left: 15px;
+}

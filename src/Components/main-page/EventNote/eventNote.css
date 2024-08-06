@@ -1,0 +1,46 @@
+
+#dateLeft {
+	margin: 20px;
+	border-left: 2px solid #333;
+	text-align: center;
+	opacity: 0.6;
+	width: 100px;
+}
+
+.frontDate {
+	background-color: antiquewhite;
+	display: flex;
+}
+
+.tags {width: 80%;
+padding: 0;}
+
+.tags li{
+	color: blue;
+	border: 1px solid blue;
+	border-radius: 3px;
+	padding: 3px;
+	margin: 5px;
+	list-style: none;
+	display: inline-block;
+}
+
+.mid {
+	display: inline-block;
+}
+
+.foter {
+	display: block;
+}
+.ulFoter {
+	padding: 0;
+}
+.ulFoter li {
+	display: inline-block;
+	padding: 0 2px;
+	margin-right:2px;
+	list-style: none;
+}
+.ulFoter li a {
+	color: #333;
+}

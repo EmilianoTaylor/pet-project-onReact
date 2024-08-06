@@ -1,0 +1,27 @@
+.searcher {
+	background-color: antiquewhite;
+	margin: 100px 15px 15px 15px;
+	border-radius: 10px;
+	height: 6em;
+}
+
+.searcher h2 {
+	margin: 10px;
+	color: #333;
+}
+
+.searcher select {
+	margin: 15px 25px;
+}
+
+#searcherInp {
+	width: 15rem;
+	margin: 15px 25px;
+	display: inline-block;
+}
+
+.searcherBtn{
+	margin-left: 10em;
+	border-radius: 5px;
+	background: linear-gradient(blue, aqua, blue);	
+}

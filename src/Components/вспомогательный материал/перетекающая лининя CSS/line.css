@@ -1,0 +1,71 @@
+
+.mainCssDiv {
+	width: 99%;
+	height: 90vh;
+	margin: 0;
+	background: #333;
+	font-size: 20px;
+	font-weight: 300;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	color: #fff;
+	position: absolute;
+	top: 150px;
+}
+
+.container {
+	display: table-cell;
+	vertical-align: center;
+	width: 600px;
+}
+
+.container ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.container li {
+	display: inline-block;
+	padding: 20px;
+}
+
+.container span {
+	position: relative;
+	display: block;
+	cursor: pointer;
+}
+
+.container span::before, span::after { 
+content: "";
+position: absolute;
+width: 0%;
+height: 1px;
+top: 50%;
+margin-top: -0.5px;
+background: #fff;
+}
+
+.container span::before {
+	left: -2.5px;
+}
+
+.container span::after {
+	right: 2.5px;
+	background: #fff;
+	transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+.container span:hover::before {
+	background: #fff;
+	width: 100%;
+	transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+.container span:hover::after {
+	background: transparent;
+	width: 100%;
+	transition: 0s;
+}
+
+

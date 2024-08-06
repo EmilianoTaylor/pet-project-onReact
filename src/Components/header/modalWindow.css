@@ -1,0 +1,47 @@
+.changer {
+	background-color: rgba(0, 0, 0, .5);
+	padding: 15px;
+	width: 100%;
+	height: 100vh;
+	z-index: 99998;
+	position: fixed;
+	left: 0;
+	top: 0;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity .4s, visibility .4s;
+}
+
+.changer.open {
+	visibility: visible;
+	opacity: 1;
+}
+
+.changerBox {
+	max-width: 30%;
+	padding: 40px;
+	z-index: 1;
+	background-color: lightseagreen;
+	position: relative;
+	display: inline-block;
+	left: 30%;
+	top: 10%;
+	box-shadow: 0px 0px 17px 7px rgba(34, 60, 80, 0.9);
+	transform: scale(0);
+	transition: transform .8s;
+}
+
+.changerBox label, input {
+	display: block;
+	margin: 5px;
+}
+
+.submit {
+margin-top: 10px;
+display: grid;
+text-align: right;
+}
+
+.changer.open .changerBox {
+	transform: scale(1);
+}
