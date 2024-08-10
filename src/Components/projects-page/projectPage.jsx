@@ -1,5 +1,5 @@
 import Button from "../Button/button"
-import Wine from "../вспомогательный материал/винный сомелье/wine"
+import Wine from "../вспомогательный материал/винный сомелье/wine.jsx"
 import './projectPage.css' 
 import { useState } from "react"
 

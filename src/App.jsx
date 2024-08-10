@@ -6,16 +6,14 @@ import ProjectPage from "./Components/projects-page/projectPage";
 import CssModelsPage from "./Components/css-page/cssModelsPage";
 import { useState } from "react";
 
-import { BrowserRouter as Router, Link, NavLink } from "react-router-dom" ; 
-
 function App () {
-const [page, setPage] = useState('main')
+	const [page, setPage] = useState('main')
 
 	return (
 		<>
 			<Header active={page} onChange={(current) => setPage(current)}/>
 			{page=='main' && (
-				<> 
+				<>
 					<SearchLesson />
 					<EventNote />
 					<RegForm />

@@ -27,9 +27,9 @@ export default function Header ({active, onChange}) {
 			>CSS модели</Button></li>
 			<li className="listLi"><Button id="del" className='headerBtn' onClick={() => alert('Не функционирует')}>Заметки</Button></li>
 		</ul>
-	<div>
-		<Button className='personal' onClick={OpnModal}>Личный кабинет</Button>
-	</div>
+		<div>
+			<Button className='personal' onClick={OpnModal}>Личный кабинет</Button>
+		</div>
 		<Modal />
 	</div>
 	)
