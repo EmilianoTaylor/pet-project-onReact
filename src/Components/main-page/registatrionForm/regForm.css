@@ -40,9 +40,17 @@ margin: 5px;}
 .relUl {
 	position: relative;
 	left: 50%;
-	top: -23em;
+	top: -33em;
 	font-size: 0.7em;
 }
+
+.relUlTwo {
+	position: relative;
+	left: 50%;
+	top: -13em;
+	font-size: 0.7em;
+}
+
 
 .reg {
 	border-top: 1px solid grey;

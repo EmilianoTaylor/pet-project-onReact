@@ -45,3 +45,10 @@ text-align: right;
 .changer.open .changerBox {
 	transform: scale(1);
 }
+
+.closeBtn {
+	position:	fixed;
+	top: 15px;
+	right: 15px;
+	border-radius: 3px;
+}
